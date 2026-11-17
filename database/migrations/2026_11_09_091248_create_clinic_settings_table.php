@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('ln2_alarm')->default('Liquid Level < 15 cm');
             $table->string('contact_phone')->nullable()->default('+91 98200 00000');
             $table->string('contact_email')->nullable()->default('contact@aura-ivf.com');
-            $table->text('clinic_address')->nullable()->default('Suite 401, Healthcare Boulevard, Metro City, India');
+            $table->text('clinic_address')->nullable();
             $table->timestamps();
         });
     }
