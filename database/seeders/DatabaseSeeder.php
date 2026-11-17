@@ -19,6 +19,7 @@ use App\Models\BabyRecord;
 use App\Models\VaccinationSchedule;
 use App\Models\CryobankStorage;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
