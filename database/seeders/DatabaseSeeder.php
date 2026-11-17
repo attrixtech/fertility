@@ -24,6 +24,39 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // =========================================================================
+// DEMO LOGIN USERS
+// =========================================================================
+
+        $demoUsers = [
+            [
+                'name' => 'Dr. Elena Vance, MD',
+                'email' => 'elena@fertility.thrumble.online',
+            ],
+            [
+                'name' => 'Dr. Sarah Chen, PhD',
+                'email' => 'sarah@fertility.thrumble.online',
+            ],
+            [
+                'name' => 'Dr. Rachel Morgan',
+                'email' => 'rachel@fertility.thrumble.online',
+            ],
+            [
+                'name' => 'Claire Dupont, RN',
+                'email' => 'claire@fertility.thrumble.online',
+            ],
+        ];
+
+        foreach ($demoUsers as $demoUser) {
+            User::updateOrCreate(
+                ['email' => $demoUser['email']],
+                [
+                    'name' => $demoUser['name'],
+                    'password' => Hash::make('password'),
+                    'email_verified_at' => now(),
+                ]
+            );
+        }
+        // =========================================================================
         // 1. LEADS / INQUIRIES
         // =========================================================================
         Lead::create([
@@ -290,7 +323,7 @@ class DatabaseSeeder extends Seeder
 
         // Vaccination Schedule (From Birth to 15 Months)
         $birthDate = Carbon::now()->subDays(14);
-        
+
         // At Birth (Administered)
         VaccinationSchedule::create([
             'baby_record_id' => $baby1->id,
