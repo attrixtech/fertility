@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AURA IVF — Reproductive Medicine & Assisted Conception System</title>
+    <meta name="author" content="Attrix Technologies">
+    <meta name="publisher" content="Infusionn Pvt. Ltd.">
+    <title>thrumble.fertility — Reproductive Medicine & Assisted Conception System</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -605,9 +607,9 @@
     <!-- LEFT SIDEBAR WITH ICONS & BADGE COUNTS -->
     <aside class="sidebar">
         <div class="sidebar-header">
-            <div class="brand-logo">A</div>
+            <div class="brand-logo">T</div>
             <div>
-                <div class="brand-title">AURA IVF</div>
+                <div class="brand-title">thrumble.fertility</div>
                 <div class="brand-badge">CLINICAL OS</div>
             </div>
         </div>
@@ -831,7 +833,11 @@
         <div class="sidebar-footer">
             <div class="status-pill">
                 <span class="status-dot"></span>
-                <span>AURA REPRODUCTIVE MEDICINE</span>
+                <span>thrumble.fertility</span>
+            </div>
+            <div style="margin-top: 10px; font-size: 10.5px; line-height: 1.5; color: #6b7280; text-align: center;">
+                Developed by <strong>Attrix Technologies</strong><br>
+                Marketed by <strong>Infusionn Pvt. Ltd.</strong>
             </div>
         </div>
     </aside>

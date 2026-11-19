@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In — AURA IVF Reproductive Medicine Clinical OS</title>
+    <meta name="author" content="Attrix Technologies">
+    <meta name="publisher" content="Infusionn Pvt. Ltd.">
+    <title>Sign In — thrumble.fertility Reproductive Medicine Clinical OS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -181,8 +183,8 @@
 <body>
     <div class="auth-container">
         <div class="auth-brand">
-            <span class="brand-badge">AURA CLINICAL OS</span>
-            <div class="brand-title">AURA IVF SYSTEM</div>
+            <span class="brand-badge">CLINICAL OS</span>
+            <div class="brand-title">thrumble.fertility</div>
             <div class="brand-sub">Reproductive Medicine &amp; Assisted Conception</div>
         </div>
 
@@ -207,7 +209,7 @@
             @csrf
             <div class="form-group">
                 <label class="form-label" for="email">Staff Email / Username</label>
-                <input type="email" id="email" name="email" class="form-control" value="{{ old('email', 'admin@aura-ivf.com') }}" required autofocus autocomplete="username">
+                <input type="email" id="email" name="email" class="form-control" value="{{ old('email', 'elena@fertility.thrumble.online') }}" required autofocus autocomplete="username">
             </div>
 
             <div class="form-group">
@@ -220,23 +222,27 @@
                 <label for="remember" style="font-size: 12px; cursor: pointer; user-select: none;">Keep me signed in on this workstation</label>
             </div>
 
-            <button type="submit" class="btn-submit">Sign In to AURA IVF &rarr;</button>
+            <button type="submit" class="btn-submit">Sign In to thrumble.fertility &rarr;</button>
         </form>
 
         <div class="quick-accounts">
             <div class="quick-accounts-title">Quick Demo Login Shortcuts:</div>
-            <button type="button" class="quick-btn" onclick="fillLogin('admin@aura-ivf.com', 'admin123')">
+            <button type="button" class="quick-btn" onclick="fillLogin('elena@fertility.thrumble.online', 'admin123')">
                 <strong>Dr. Elena Vance, MD</strong> Super Admin / Medical Director
             </button>
-            <button type="button" class="quick-btn" onclick="fillLogin('embryo@aura-ivf.com', 'admin123')">
+            <button type="button" class="quick-btn" onclick="fillLogin('sarah@fertility.thrumble.online', 'admin123')">
                 <strong>Dr. Sarah Chen, PhD</strong> Chief Embryologist
             </button>
-            <button type="button" class="quick-btn" onclick="fillLogin('obgyn@aura-ivf.com', 'admin123')">
+            <button type="button" class="quick-btn" onclick="fillLogin('rachel@fertility.thrumble.online', 'admin123')">
                 <strong>Dr. Rachel Morgan</strong> Consultant Obstetrician
             </button>
-            <button type="button" class="quick-btn" onclick="fillLogin('nurse@aura-ivf.com', 'admin123')">
+            <button type="button" class="quick-btn" onclick="fillLogin('claire@fertility.thrumble.online', 'admin123')">
                 <strong>Claire Dupont, RN</strong> Senior Clinical Nurse
             </button>
+        </div>
+        <div style="margin-top: 24px; text-align: center; font-size: 11.5px; color: #6b7280; line-height: 1.6;">
+            &copy; {{ date('Y') }} thrumble.fertility<br>
+            Developed by <strong>Attrix Technologies</strong> &middot; Marketed by <strong>Infusionn Pvt. Ltd.</strong>
         </div>
     </div>
 

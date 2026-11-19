@@ -219,5 +219,6 @@
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
+        <footer style="text-align:center;font-size:12px;color:#706f6c;padding:16px;">&copy; {{ date('Y') }} thrumble.fertility &middot; Developed by <strong>Attrix Technologies</strong> &middot; Marketed by <strong>Infusionn Pvt. Ltd.</strong></footer>
     </body>
 </html>

@@ -471,7 +471,7 @@
                                         <div style="border: 2px solid #000000; padding: 1rem; margin-bottom: 1.25rem;">
                                             <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid #000000; padding-bottom: 0.75rem; margin-bottom: 0.75rem;">
                                                 <div>
-                                                    <div style="font-weight: 800; font-size: 14.5px; text-transform: uppercase;">{{ $clinicSetting->clinic_name ?? 'AURA Reproductive Medicine Centre' }}</div>
+                                                    <div style="font-weight: 800; font-size: 14.5px; text-transform: uppercase;">{{ $clinicSetting->clinic_name ?? 'thrumble.fertility Reproductive Medicine Centre' }}</div>
                                                     <div class="mono" style="font-size: 10.5px;">ART Reg. No.: {{ $clinicSetting->art_reg_no ?? 'ART-IND-2026-0894' }}</div>
                                                     <div class="mono text-muted" style="font-size: 10px;">Medical Director: {{ $clinicSetting->director_name ?? 'Dr. Elena Vance, MD' }}</div>
                                                 </div>
@@ -3357,8 +3357,8 @@
                         <div class="form-grid" style="padding: 0;">
                             <div class="form-group" style="grid-column: 1 / -1;">
                                 <label class="form-label">Centre Legal Name</label>
-                                <input type="text" name="clinic_name" class="form-control" value="AURA Reproductive Medicine &amp; Advanced Conception Centre">
-                                <input type="text" name="clinic_name" class="form-control" value="{{ old('clinic_name', $clinicSetting->clinic_name ?? 'AURA Reproductive Medicine & Advanced Conception Centre') }}" required>
+                                <input type="text" name="clinic_name" class="form-control" value="thrumble.fertility Reproductive Medicine &amp; Advanced Conception Centre">
+                                <input type="text" name="clinic_name" class="form-control" value="{{ old('clinic_name', $clinicSetting->clinic_name ?? 'thrumble.fertility Reproductive Medicine & Advanced Conception Centre') }}" required>
                             </div>
                             <div class="form-group">
                                 <label class="form-label">National ART Registry No.</label>
@@ -3376,7 +3376,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="form-label">Contact Email</label>
-                                <input type="email" name="contact_email" class="form-control" value="{{ old('contact_email', $clinicSetting->contact_email ?? 'contact@aura-ivf.com') }}" placeholder="contact@aura-ivf.com">
+                                <input type="email" name="contact_email" class="form-control" value="{{ old('contact_email', $clinicSetting->contact_email ?? 'contact@fertility.thrumble.online') }}" placeholder="contact@fertility.thrumble.online">
                             </div>
                             <div class="form-group">
                                 <label class="form-label">Embryo Incubator Baseline</label>
@@ -3418,7 +3418,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="form-label">Email Address (Login Username) *</label>
-                                <input type="email" name="email" class="form-control" placeholder="e.g. staff@aura-ivf.com" required>
+                                <input type="email" name="email" class="form-control" placeholder="e.g. staff@fertility.thrumble.online" required>
                             </div>
                             <div class="form-group">
                                 <label class="form-label">Assigned Clinical Role *</label>

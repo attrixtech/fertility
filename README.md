@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🩺 AURA IVF
+# 🩺 thrumble.fertility
 ### Reproductive Medicine & Assisted Conception Clinical Operating System
 
 [![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%99%A5-000000.svg?style=for-the-badge)](https://github.com/webotapp-academy/fertility-clinic-mgt-software)
@@ -26,9 +26,9 @@
 
 ## 📖 Overview
 
-**AURA IVF** is an end-to-end clinical management platform covering the entire patient and laboratory lifecycle in reproductive medicine. 
+**thrumble.fertility** is an end-to-end clinical management platform covering the entire patient and laboratory lifecycle in reproductive medicine. 
 
-From initial couple consultation, legal KYC onboarding, and hormonal stimulation monitoring to surgical oocyte retrieval (OPU), embryology grading, embryo transfer, failure root-cause analysis (RCA), high-risk antenatal care (ANC), delivery documentation, and pediatric multi-vaccine tracking — AURA IVF consolidates fragmented clinical notes into one cohesive, auditable system.
+From initial couple consultation, legal KYC onboarding, and hormonal stimulation monitoring to surgical oocyte retrieval (OPU), embryology grading, embryo transfer, failure root-cause analysis (RCA), high-risk antenatal care (ANC), delivery documentation, and pediatric multi-vaccine tracking — thrumble.fertility consolidates fragmented clinical notes into one cohesive, auditable system.
 
 ---
 
@@ -36,7 +36,7 @@ From initial couple consultation, legal KYC onboarding, and hormonal stimulation
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                          AURA IVF CLINICAL OS                               │
+│                          thrumble.fertility CLINICAL OS                               │
 ├─────────────────────┬───────────────────────────┬───────────────────────────┤
 │    MAIN SYSTEM      │      TREATMENT & LAB      │   MATERNITY & BIO-BANK    │
 ├─────────────────────┼───────────────────────────┼───────────────────────────┤
@@ -115,7 +115,7 @@ From initial couple consultation, legal KYC onboarding, and hormonal stimulation
 
 ## 📑 Regulatory Compliance & Signed Consent Management
 
-Under the National ART Act, informed consent documentation is mandatory prior to initiating clinical procedures. AURA IVF provides a complete consent lifecycle:
+Under the National ART Act, informed consent documentation is mandatory prior to initiating clinical procedures. thrumble.fertility provides a complete consent lifecycle:
 
 * **Statutory Consent Document (Form ART-04):** Built-in legal consent template featuring clinic accreditation details, couple identification, risk disclosures, cryo authorization, and advance directives.
 * **Printer-Ready Format:** Clinicians can print physical consent copies directly via the built-in `Print Legal Consent Form` button.
@@ -127,7 +127,7 @@ Under the National ART Act, informed consent documentation is mandatory prior to
 
 ## 🔐 Clinical Role-Based Access Control (RBAC)
 
-AURA IVF enforces clinical specialty separation so medical staff only interact with modules relevant to their role:
+thrumble.fertility enforces clinical specialty separation so medical staff only interact with modules relevant to their role:
 
 | Clinical Role | Accessible Modules |
 | :--- | :--- |
@@ -204,10 +204,10 @@ The seeder initializes demo accounts for immediate clinical evaluation:
 
 | Clinical Role | Username / Email | Password |
 | :--- | :--- | :--- |
-| **Super Admin / Medical Director** | `admin@aura-ivf.com` | `admin123` |
-| **Chief Embryologist** | `embryo@aura-ivf.com` | `admin123` |
-| **Consultant Obstetrician** | `obgyn@aura-ivf.com` | `admin123` |
-| **Senior Clinical Nurse** | `nurse@aura-ivf.com` | `admin123` |
+| **Super Admin / Medical Director** | `elena@fertility.thrumble.online` | `admin123` |
+| **Chief Embryologist** | `sarah@fertility.thrumble.online` | `admin123` |
+| **Consultant Obstetrician** | `rachel@fertility.thrumble.online` | `admin123` |
+| **Senior Clinical Nurse** | `claire@fertility.thrumble.online` | `admin123` |
 
 *(1-click role login shortcuts are also provided directly on the login screen).*
 
@@ -258,4 +258,9 @@ This software is open-source and released under the [MIT License](LICENSE). You 
 
 ---
 
-Developed for reproductive medicine and embryology professionals worldwide by [WebOtApp Academy](https://github.com/webotapp-academy).
+## 🤝 Credits
+
+- **Developer:** Attrix Technologies
+- **Marketing:** Infusionn Pvt. Ltd.
+
+© thrumble.fertility
