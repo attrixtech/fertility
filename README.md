@@ -204,10 +204,10 @@ The seeder initializes demo accounts for immediate clinical evaluation:
 
 | Clinical Role | Username / Email | Password |
 | :--- | :--- | :--- |
-| **Super Admin / Medical Director** | `elena@fertility.thrumble.online` | `admin123` |
-| **Chief Embryologist** | `sarah@fertility.thrumble.online` | `admin123` |
-| **Consultant Obstetrician** | `rachel@fertility.thrumble.online` | `admin123` |
-| **Senior Clinical Nurse** | `claire@fertility.thrumble.online` | `admin123` |
+| **Super Admin / Medical Director** | `elena@fertility.thrumble.online` | `password` |
+| **Chief Embryologist** | `sarah@fertility.thrumble.online` | `password` |
+| **Consultant Obstetrician** | `rachel@fertility.thrumble.online` | `password` |
+| **Senior Clinical Nurse** | `claire@fertility.thrumble.online` | `password` |
 
 *(1-click role login shortcuts are also provided directly on the login screen).*
 

@@ -214,7 +214,7 @@
 
             <div class="form-group">
                 <label class="form-label" for="password">Password</label>
-                <input type="password" id="password" name="password" class="form-control" value="admin123" required autocomplete="current-password">
+                <input type="password" id="password" name="password" class="form-control" value="password" required autocomplete="current-password">
             </div>
 
             <div class="form-group" style="display: flex; align-items: center; gap: 8px;">
@@ -227,16 +227,16 @@
 
         <div class="quick-accounts">
             <div class="quick-accounts-title">Quick Demo Login Shortcuts:</div>
-            <button type="button" class="quick-btn" onclick="fillLogin('elena@fertility.thrumble.online', 'admin123')">
+            <button type="button" class="quick-btn" onclick="fillLogin('elena@fertility.thrumble.online', 'password')">
                 <strong>Dr. Elena Vance, MD</strong> Super Admin / Medical Director
             </button>
-            <button type="button" class="quick-btn" onclick="fillLogin('sarah@fertility.thrumble.online', 'admin123')">
+            <button type="button" class="quick-btn" onclick="fillLogin('sarah@fertility.thrumble.online', 'password')">
                 <strong>Dr. Sarah Chen, PhD</strong> Chief Embryologist
             </button>
-            <button type="button" class="quick-btn" onclick="fillLogin('rachel@fertility.thrumble.online', 'admin123')">
+            <button type="button" class="quick-btn" onclick="fillLogin('rachel@fertility.thrumble.online', 'password')">
                 <strong>Dr. Rachel Morgan</strong> Consultant Obstetrician
             </button>
-            <button type="button" class="quick-btn" onclick="fillLogin('claire@fertility.thrumble.online', 'admin123')">
+            <button type="button" class="quick-btn" onclick="fillLogin('claire@fertility.thrumble.online', 'password')">
                 <strong>Claire Dupont, RN</strong> Senior Clinical Nurse
             </button>
         </div>

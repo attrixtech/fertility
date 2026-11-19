@@ -2,23 +2,23 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
-use Illuminate\Database\Seeder;
-use App\Models\Lead;
-use App\Models\Patient;
+use App\Models\AntenatalRecord;
+use App\Models\BabyRecord;
 use App\Models\Couple;
+use App\Models\CryobankStorage;
+use App\Models\CycleOutcome;
+use App\Models\DeliveryRecord;
+use App\Models\EmbryoTransfer;
+use App\Models\FollicularScan;
 use App\Models\InfertilityWorkup;
 use App\Models\IvfCycle;
-use App\Models\FollicularScan;
+use App\Models\Lead;
 use App\Models\OpuAndLabRecord;
-use App\Models\EmbryoTransfer;
-use App\Models\CycleOutcome;
-use App\Models\AntenatalRecord;
-use App\Models\DeliveryRecord;
-use App\Models\BabyRecord;
+use App\Models\Patient;
+use App\Models\User;
 use App\Models\VaccinationSchedule;
-use App\Models\CryobankStorage;
 use Carbon\Carbon;
+use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
@@ -26,25 +26,29 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // =========================================================================
-// DEMO LOGIN USERS
-// =========================================================================
+        // DEMO LOGIN USERS
+        // =========================================================================
 
         $demoUsers = [
             [
                 'name' => 'Dr. Elena Vance, MD',
                 'email' => 'elena@fertility.thrumble.online',
+                'role' => 'Super Admin / Medical Director',
             ],
             [
                 'name' => 'Dr. Sarah Chen, PhD',
                 'email' => 'sarah@fertility.thrumble.online',
+                'role' => 'Chief Embryologist',
             ],
             [
                 'name' => 'Dr. Rachel Morgan',
                 'email' => 'rachel@fertility.thrumble.online',
+                'role' => 'Consultant Obstetrician',
             ],
             [
                 'name' => 'Claire Dupont, RN',
                 'email' => 'claire@fertility.thrumble.online',
+                'role' => 'Senior Clinical Nurse',
             ],
         ];
 
@@ -53,6 +57,8 @@ class DatabaseSeeder extends Seeder
                 ['email' => $demoUser['email']],
                 [
                     'name' => $demoUser['name'],
+                    'role' => $demoUser['role'],
+                    'status' => 'Active',
                     'password' => Hash::make('password'),
                     'email_verified_at' => now(),
                 ]
@@ -441,7 +447,6 @@ class DatabaseSeeder extends Seeder
             'batch_number' => null,
             'administered_by' => null,
         ]);
-
 
         // =========================================================================
         // JOURNEY 2: FAILED ATTEMPT -> ROOT CAUSE ANALYSIS -> RE-ATTEMPT (CYCLE 2)
