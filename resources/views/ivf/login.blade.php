@@ -242,7 +242,7 @@
         </div>
         <div style="margin-top: 24px; text-align: center; font-size: 11.5px; color: #6b7280; line-height: 1.6;">
             &copy; {{ date('Y') }} thrumble.fertility<br>
-            Developed by <strong>Attrix Technologies</strong> &middot; Marketed by <strong>Infusionn Pvt. Ltd.</strong>
+            Developed by <a href="https://www.attrixtech.com" target="_blank" rel="noopener" style="color: inherit;"><strong>Attrix Technologies</strong></a> &middot; Marketed by <a href="https://www.infusionn.in" target="_blank" rel="noopener" style="color: inherit;"><strong>Infusionn Pvt. Ltd.</strong></a>
         </div>
     </div>
 

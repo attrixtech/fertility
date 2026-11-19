@@ -260,7 +260,7 @@ This software is open-source and released under the [MIT License](LICENSE). You 
 
 ## 🤝 Credits
 
-- **Developer:** Attrix Technologies
-- **Marketing:** Infusionn Pvt. Ltd.
+- **Developer:** [Attrix Technologies](https://www.attrixtech.com)
+- **Marketing:** [Infusionn Pvt. Ltd.](https://www.infusionn.in)
 
 © thrumble.fertility

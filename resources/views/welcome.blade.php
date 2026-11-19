@@ -219,6 +219,6 @@
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
-        <footer style="text-align:center;font-size:12px;color:#706f6c;padding:16px;">&copy; {{ date('Y') }} thrumble.fertility &middot; Developed by <strong>Attrix Technologies</strong> &middot; Marketed by <strong>Infusionn Pvt. Ltd.</strong></footer>
+        <footer style="text-align:center;font-size:12px;color:#706f6c;padding:16px;">&copy; {{ date('Y') }} thrumble.fertility &middot; Developed by <a href="https://www.attrixtech.com" target="_blank" rel="noopener" style="color: inherit;"><strong>Attrix Technologies</strong></a> &middot; Marketed by <a href="https://www.infusionn.in" target="_blank" rel="noopener" style="color: inherit;"><strong>Infusionn Pvt. Ltd.</strong></a></footer>
     </body>
 </html>

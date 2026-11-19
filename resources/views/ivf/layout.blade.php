@@ -836,8 +836,8 @@
                 <span>thrumble.fertility</span>
             </div>
             <div style="margin-top: 10px; font-size: 10.5px; line-height: 1.5; color: #6b7280; text-align: center;">
-                Developed by <strong>Attrix Technologies</strong><br>
-                Marketed by <strong>Infusionn Pvt. Ltd.</strong>
+                Developed by <a href="https://www.attrixtech.com" target="_blank" rel="noopener" style="color: inherit;"><strong>Attrix Technologies</strong></a><br>
+                Marketed by <a href="https://www.infusionn.in" target="_blank" rel="noopener" style="color: inherit;"><strong>Infusionn Pvt. Ltd.</strong></a>
             </div>
         </div>
     </aside>
